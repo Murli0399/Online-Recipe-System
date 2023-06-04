@@ -106,7 +106,7 @@ http://localhost:8088
 
 ## 🔗 Contact Me
 
-[![portfolio](https://murli0399.github.io/)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://murli0399.github.io/)
 
 [![linkedin](https://www.linkedin.com/in/murli-khaire/)
 
