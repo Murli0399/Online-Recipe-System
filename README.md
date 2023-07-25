@@ -1,6 +1,6 @@
 # Recipe Management System
 
-![Recipe Management](https://github.com/Murli0399/Online-Recipe-System/blob/main/img/Recipe-Management%20(1).jpg)
+![Recipe Management]()
 
 
  ## **WEB SERVICE : REST A.P.I.**
