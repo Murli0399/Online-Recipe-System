@@ -11,7 +11,7 @@ The API uses standard HTTP methods to retrieve, create, update, and delete data,
 
 ## Features 
 
- - The API implements Spring Security and JSON Web Token (J.W.T) for authentication, validation, and authorization of users and administrators.
+ - The API implements Spring Security for authentication, validation, and authorization of users and administrators.
  - The API includes functionality for pagination, sorting, and searching of data.
  - The API implements custom exception handling for all exceptions and validations.
  - The API utilizes custom request and response data transfer objects for all HTTP requests.
@@ -34,7 +34,6 @@ The API uses standard HTTP methods to retrieve, create, update, and delete data,
 
 ## Dependencies
 
-- JWT AUTHENTICATION
 - SPRING SECURITY
 - SPRING DATA JPA 
 - SPRING BOOT DEVTOOLS
@@ -43,7 +42,6 @@ The API uses standard HTTP methods to retrieve, create, update, and delete data,
 - MYSQL DRIVER
 - VALIDATION
 - LOMBOK
-- LOGGER
 
 
 
