@@ -5,14 +5,13 @@
 
  ## **WEB SERVICE : REST A.P.I.**
  
-The Recipe Management REST API is a web-based platform that empowers safes and users to share their ideas and perspectives in an interactive way. The API allows users to create recipe on their personal profiles, complete with image support, which enhances the user experience. The API also enables users to view and search for recipe and recipe categories that align with their personal interests, fostering a community-driven platform. Users can also leave review on created recipe, encouraging engagement. 
+The Recipe Management REST API is a web-based platform that empowers safes and users to share their ideas and perspectives in an interactive way. The API allows users to create recipes on their personal profiles, complete with image support, which enhances the user experience. The API also enables users to view and search for recipes and recipe categories that align with their personal interests, fostering a community-driven platform. Users can also leave reviews on created recipes, encouraging engagement. 
 
 The API uses standard HTTP methods to retrieve, create, update, and delete data, providing a secure and robust way for the Recipe Management to interact with the data, making it easy and safe for users to share their thoughts and ideas. This REST API is an ideal solution for anyone who wants to connect with others and share their ideas through blogging.
 
 ## Features 
 
- - The API implements Spring Security for authentication, validation, and authorization of users and administrators.
- - The API includes functionality for pagination, sorting, and searching of data.
+ - The API implements authentication, validation, and authorization of users and administrators.
  - The API implements custom exception handling for all exceptions and validations.
  - The API utilizes custom request and response data transfer objects for all HTTP requests.
  - The API's primary objective is to provide a streamlined and user-friendly recipe experience for users.
