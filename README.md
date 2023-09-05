@@ -23,8 +23,7 @@ The API uses standard HTTP methods to retrieve, create, update, and delete data,
 ## Tech Stack
 
 - JAVA
-- SPRING
-- SPRINGBOOT
+- Springboot
 - HIBERNATE
 - MAVEN
 - J.D.B.C
@@ -33,7 +32,6 @@ The API uses standard HTTP methods to retrieve, create, update, and delete data,
 
 ## Dependencies
 
-- SPRING SECURITY
 - SPRING DATA JPA 
 - SPRING BOOT DEVTOOLS
 - SPRING WEB
