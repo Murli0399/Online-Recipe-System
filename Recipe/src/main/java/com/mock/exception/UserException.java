@@ -11,6 +11,4 @@ public class UserException extends Exception {
 		// TODO Auto-generated constructor stub
 	}
 
-	
-
 }

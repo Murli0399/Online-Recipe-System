@@ -11,6 +11,4 @@ public class CurrentUserSessionException extends Exception {
 		// TODO Auto-generated constructor stub
 	}
 
-	
-
 }

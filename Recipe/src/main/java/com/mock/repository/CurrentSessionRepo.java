@@ -7,7 +7,7 @@ import com.mock.entities.CurrentUserSession;
 
 @Repository
 public interface CurrentSessionRepo extends JpaRepository<CurrentUserSession, Integer>{
-	public CurrentUserSession findByUuid(String uuid);
+	public CurrentUserSession findByUserAuthenticationId(String uuid);
 	public CurrentUserSession  findByUserId(Integer userId);
 	
 }

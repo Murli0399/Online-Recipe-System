@@ -17,22 +17,32 @@ import com.mock.exception.UserException;
 import com.mock.service.UserService;
 
 import jakarta.validation.Valid;
+// Define a RESTful controller for handling User-related operations
 @RestController
 public class UserController {
+
+	// Autowire UserService for dependency injection
 	@Autowired
-	public UserService us;
-	
+	public UserService userService;
+
+	// Define endpoint for adding a new user
 	@PostMapping("/users")
-	ResponseEntity<User> addUser(@Valid @RequestBody User user) throws UserException{
-		return new ResponseEntity<>(us.addUser(user),HttpStatus.ACCEPTED);
+	ResponseEntity<User> addUser(@Valid @RequestBody User user) throws UserException {
+		// Return a response with the added user and status ACCEPTED
+		return new ResponseEntity<>(userService.addUser(user), HttpStatus.ACCEPTED);
 	}
+
+	// Define endpoint for user login
 	@GetMapping("/users")
-	ResponseEntity<CurrentUserSession> logInUser(@RequestBody LogInDto ltd) throws UserException, CurrentUserSessionException{
-		return new ResponseEntity<>(us.logIn(ltd),HttpStatus.ACCEPTED);
+	ResponseEntity<CurrentUserSession> logInUser(@RequestBody LogInDto ltd) throws UserException, CurrentUserSessionException {
+		// Return a response with the current user session and status ACCEPTED
+		return new ResponseEntity<>(userService.logIn(ltd), HttpStatus.ACCEPTED);
 	}
+
+	// Define endpoint for user logout
 	@PostMapping("/users/{uuid}")
-	ResponseEntity<Boolean> LogOutUser(@PathVariable String uuid) throws UserException, CurrentUserSessionException{
-		return new ResponseEntity<>(us.logOut(uuid),HttpStatus.ACCEPTED);
+	ResponseEntity<Boolean> logOutUser(@PathVariable String uuid) throws UserException, CurrentUserSessionException {
+		// Return a response with the logout status and status ACCEPTED
+		return new ResponseEntity<>(userService.logOut(uuid), HttpStatus.ACCEPTED);
 	}
-	
 }
